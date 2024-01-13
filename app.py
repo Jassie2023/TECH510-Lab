@@ -13,3 +13,6 @@ a soft return is used for the next line.
 Two (or more) newline characters in a row will result in a hard return.
 '''
 st.markdown(multi)
+
+st.header('Welcome~', divider='rainbow')
+st.header('Here is the Lab1's assignment :blue[cool] :sunglasses:')
