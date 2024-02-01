@@ -3,9 +3,10 @@ import streamlit as st
 # Page Title
 st.title("Jassie's UX Design Portfolio")
 
-# Profile Picture
-profile_pic_url = "https://github.com/Jassie2023/TECH510Lab1/blob/b4cfbaa20961ae936bb755babbd930299dbcd63a/test.jpg"
-st.image(profile_pic_url, use_column_width=True)
+image_url = 'https://raw.githubusercontent.com/Jassie2023/TECH510Lab1/819e91b99c19931496e32a829c79ee4e5cea9ce5/test.jpg'
+
+st.image(image_url, caption='Jassie\'s UX Design Portfolio', use_column_width=True)
+
 
 # About Section
 st.header("About Me")
@@ -15,21 +16,18 @@ st.write("I am a passionate UX designer with a strong background in creating use
 # Education Section
 st.header("Education")
 st.subheader("Master of User Experience Design - University of Design")
-st.write("Graduated in 20XX")
+st.write("Graduated in 2025")
 
-st.subheader("Bachelor of Graphic Design - Design Institute")
-st.write("Graduated in 20XX")
+st.subheader("Bachelor of Architecture")
+st.write("Graduated in 221")
 
 # Work Experience Section
 st.header("Work Experience")
 
-st.subheader("Senior UX Designer - ABC Tech")
+st.subheader("UX Designer - Midea Group")
 st.write("Responsible for leading the design team and delivering innovative UX solutions for our products. "
          "Worked on various projects, including mobile apps and web applications.")
 
-st.subheader("UX Designer - XYZ Agency")
-st.write("Collaborated with cross-functional teams to create wireframes, prototypes, and user interfaces "
-         "for clients in different industries.")
 
 # Hobbies and Interests Section
 st.header("Hobbies and Interests")
