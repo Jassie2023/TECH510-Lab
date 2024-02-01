@@ -4,7 +4,8 @@ import streamlit as st
 st.title("Jassie's UX Design Portfolio")
 
 # Profile Picture
-st.image("/Users/heying/Desktop/510/test", use_column_width=True)
+profile_pic_url = "https://github.com/Jassie2023/TECH510Lab1/blob/main/test.jpg"
+st.image(profile_pic_url, use_column_width=True)
 
 # About Section
 st.header("About Me")
