@@ -15,7 +15,7 @@ st.write("I am a passionate UX designer with a strong background in creating use
 
 # Education Section
 st.header("Education")
-st.subheader("Master of User Experience Design - University of Design")
+st.subheader("Master of User Experience Design - University of Washington")
 st.write("Graduated in 2025")
 
 st.subheader("Bachelor of Architecture")
